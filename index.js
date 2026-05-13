@@ -1,7 +1,7 @@
 const http = require('http');
 const httpProxy = require('http-proxy');
 
-const TARGET_URL = 'api.boord.ir';
+const TARGET_URL = 'change__me';
 
 const keepAliveAgent = new http.Agent({
   keepAlive: true,
